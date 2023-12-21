@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDoApp</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+</head>
+<body>
+    <header>
+        <h2>ToDos 앱</h2>
+        <button id="openModal">새로운 TODO 추가하기</button>
+    </header>
+    <div id="todoModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2 id="modalText">새 TODO 추가</h2>
+            <textarea id="todoText" placeholder="할 일을 입력하세요..."></textarea>
+            <button id="saveTodo">저장</button>
+            <button id="closeModal">닫기</button>
+        </div>
+    </div>
+    <div id="todoListContainer"></div>
+    <footer>
+
+    </footer>
+</body>
+</html>
